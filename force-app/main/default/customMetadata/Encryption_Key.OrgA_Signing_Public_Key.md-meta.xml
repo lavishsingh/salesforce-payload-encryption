@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>OrgA Signing Public Key</label>
+    <protected>false</protected>
+    <values>
+        <field>Public_Key_PEM__c</field>
+        <value xsi:type="xsd:string">-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqup3SBZIQQC+sBXJ+iqN
+O7Fg/JW/a+SzE8g7Cy3RTOBRUwTOIwBHsp4viiLZPWu3dRKiEqQEiEmSDrkdNnIp
+16L5dh556hgZ7/43ZdKQgqhcKTFeCn5lnVdiYHXUUUd8Uri7zOc/SX9ZhpdMTbVA
+fDgJpzXTqdHqzdLLb098Fh2JOiHc4GIhKyT16QgdrOlCH7l6w8UenZ7zcbHqD8Yg
+IQNw46MyhuQ4MfyYc0FDCzoOByO59hGzpdOHjHeQg47hRCKAyffhh+vpxoaCsHM4
+UlI/PFQnwVPRCFxJSTDGRHRsYIXl+v0fQvOkT5sdTkxjh50V/oNb0umT2sJ9oGut
+rcitFVcvIKQ2N1wSUhUNXG2/aPrry1z0sRYIlruQc23qh/YHa7oSXesv0EuQ/Elx
+IoHhKMvDi++xVeMkEiHlt/BcLF/1qBp7R2MaG3t8XyN9dvShbczuX3UWzsoh0HDp
+/bJe4Dx8pY8YBoxKDh1k+39pg0e+0N5k5iqiQ15yJDga4gYNm0nEW+NqskzkiOP7
+FgPlyEQL/x9rO8qfhOl77MFm/I+GjNMmKx8vBhlpKztTYU9txKm5E+nDzVyuIt5x
+rIlYPlCCYAgrlBkd7u0Llrrapw/+0qntA6w3d7Tk3277awaPg2rdAkTlGE4YRziA
+8wtTaIFSOm5jUY1elD3bOOUCAwEAAQ==
+-----END PUBLIC KEY-----</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">RSA public key (SPKI format) extracted from Org A signing certificate — used to verify RSA-SHA256 signatures on inbound encrypted payloads</value>
+    </values>
+    <values>
+        <field>Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>
